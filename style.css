@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+.jacquard-24-charted-regular {
+    font-family: "Jacquard 24 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/*css home*/
+
+/*header home*/
+
+.headerTOPOH{
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+/*body home*/
+
+.bodyHome{
+    height: 1080px;
+    background-image: url(https://images4.alphacoders.com/134/1346447.png)
+}
+
+.sectionHome{
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titleHome{
+    color: white;
+    font-family:"Jacquard 24 Charted", system-ui;
+}
+
+/**header geral*/
+
+.headerTOPO{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+
+.logo{
+    height: 10px;
+    margin-top:10px;
+    margin-left:50px;
+    width:10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navigate{
+    list-style-type: none;
+    display: flex;
+}
+
+.navigate li{
+    padding: 5px;
+    margin-right: 5px;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    color: rgb(221, 145, 32);
+    padding: 10px;
+}
